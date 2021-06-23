@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+    datic-container:
+        image: datic
+        ports:
+            - "8080:8080"
